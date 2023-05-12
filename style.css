@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(20, 20, 42);
+}
+
+.nav {
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
+    /* border: 0.1px solid white; */
+    display: flex;
+}
+
+.mid {
+    width: 100%;
+    height: 600px;
+    /* border: 0.1px solid white; */
+    display: flex;
+}
+
+.left {
+    width: 65%;
+    height: 550px;
+}
+
+.h1 {
+    font-size: 80px;
+    color: gold;
+    margin-top: 100px;
+    margin-left: 80px;
+    word-spacing: 5px;
+    cursor: none;
+    text-shadow: 5px 5px 10px rgb(255, 136, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.h1:hover {
+    color: white;
+
+}
+
+h1 {
+    color: white;
+    margin-top: 40px;
+    margin-left: 80px;
+    font-size: 20px;
+    cursor: cell;
+    text-shadow: 2px 2px 5px red;
+}
+
+h1:hover {
+    color: red;
+}
+
+.right {
+    width: 35%;
+    height: 550px;
+}
+
+.button {
+    height: 35px;
+    margin-top: 32px;
+    font-size: 15px;
+    margin-left: 30px;
+    background-color: rgb(20, 20, 42);
+    color: white;
+    box-shadow: 5px 5px 5px lightblue;
+}
+
+.button:hover {
+    color: orangered;
+}
+
+.button2 {
+    height: 23px;
+    margin-top: 32px;
+    font-size: 15px;
+    margin-left: 250px;
+    background-color: rgb(20, 20, 42);
+    color: white;
+    box-shadow: 5px 5px 5px lightblue;
+}
+
+.button2:hover {
+    color: orangered;
+}
+
+.img {
+    margin-top: 120px;
+    margin-left: 25px;
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.left2{
+    width: 65%;
+    height: 80px;
+    margin-top: 70px;
+    margin-left: 70px;
+    font-size: 20px;      
+}
+
+.right2{
+    width: 35%;
+    height: 80px;
+    display: flex;
+    margin-top: 70px;
+}
